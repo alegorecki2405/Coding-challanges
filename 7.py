@@ -12,7 +12,7 @@ def ile_mozliwosci(dl):
 def poprawki(lst,dl):
     ileod = 0
     for i in range(0,dl-1):
-        if lst[i]*10 + lst[i+1] > 24:
+        if lst[i]*10 + lst[i+1] > 26:
             ileod+=1
     return ileod
 
