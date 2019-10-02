@@ -7,26 +7,46 @@
 # Given the root to a binary tree, count the number of unival subtrees.
 
 class Node:
-    def __init__(self):
+    def __init__(self, value):
         self.value = value
-        self.right = right;
-        self.left = left
+        self.right = None
+        self.left = None
+    def __repr__(self):
+        return str(self.value)
 
-def is_unvial(root):
-    if root == null:
+def is_unival(root):
+    return unival_helper(root, root.value)
+
+def unival_helper(root, value):
+    if root is None:
         return True
-    if root.left != null and root.left.value != root.value:
-        return False
-    if root.right != null and root.right.value != root.value:
-        return False
-    if is_unvial(root.left) and is_unvial(root.right):
-        return True
+    if root.value == value:
+        return unival_helper(root.left, value) and unival_helper(root.right, value)
     return False
 
-def count_univals(root):
-    if root == null:
+def count_unival_trees(root):
+    if root is None:
         return 0
-    total_count = count_univals(root.left) + count_univals(root.right)
-    if is_unival(root):
-        total_count +=1
-    return total_count
+    left = count_unival_trees(root.left)
+    right = count_unival_trees((root.right))
+    return 1 + left + right if is_unival(root) else left + right
+
+node_a = Node('0')
+node_b = Node('1')
+node_c = Node('0')
+node_d = Node('1')
+node_e = Node('0')
+node_f = Node('1')
+node_g = Node('1')
+node_a.left = node_b
+node_a.right = node_c
+node_c.left = node_d
+node_c.right = node_e
+node_d.left = node_f
+node_d.right = node_g
+
+assert count_unival_trees(None) == 0
+assert count_unival_trees(node_a) == 5
+assert count_unival_trees(node_c) == 4
+assert count_unival_trees(node_g) == 1
+assert count_unival_trees(node_d) == 3
