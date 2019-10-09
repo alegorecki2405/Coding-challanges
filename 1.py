@@ -16,3 +16,7 @@ def pierwsza(lst,k):
     return False
 print(pierwsza([1,2,3,4],7))
 
+
+#just a simple test
+
+
