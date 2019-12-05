@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="212165c2-dc63-4592-8be4-6f4bfc1f0872" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/14.py" afterDir="false" />
+    <list default="true" id="212165c2-dc63-4592-8be4-6f4bfc1f0872" name="Default Changelist" comment="&quot;# coding challange nr 13 it wasnt hard but it was a bit tricky&quot;">
+      <change afterPath="$PROJECT_DIR$/16.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,7 +24,8 @@
   <component name="ProjectId" id="1RY8E8vnqxTY4DqK11RRys8MkKz" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/7.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/x.py" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -39,7 +40,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="14" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="16" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="daily coding challange" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -52,7 +53,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/16.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -84,6 +85,11 @@
       <workItem from="1570298274511" duration="105000" />
       <workItem from="1570298604244" duration="2307000" />
       <workItem from="1570443044745" duration="2807000" />
+      <workItem from="1570794977998" duration="3145000" />
+      <workItem from="1571388415719" duration="6072000" />
+      <workItem from="1571822332407" duration="28000" />
+      <workItem from="1575461552143" duration="3038000" />
+      <workItem from="1575536336867" duration="828000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;small change&quot;">
       <created>1569861128752</created>
@@ -174,6 +180,8 @@
     <SUITE FILE_PATH="coverage/daily_coding_challange$10.coverage" NAME="12 Coverage Results" MODIFIED="1570266931034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/daily_coding_challange$13.coverage" NAME="14 Coverage Results" MODIFIED="1570469092531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/daily_coding_challange$7.coverage" NAME="8 Coverage Results" MODIFIED="1569939631469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Coding_challanges$x.coverage" NAME="x Coverage Results" MODIFIED="1575466265609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/daily_coding_challange$8.coverage" NAME="10 Coverage Results" MODIFIED="1570045154375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Coding_challanges$14.coverage" NAME="16 Coverage Results" MODIFIED="1571395529606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
